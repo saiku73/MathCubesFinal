@@ -9,6 +9,6 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        SceneManager.LoadScene(SceneManager.SceneIndex.MainMenu);
+        SceneLoader.LoadScene(SceneLoader.SceneIndex.MainMenu);
     }
 }
