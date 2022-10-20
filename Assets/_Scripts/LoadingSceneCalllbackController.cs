@@ -10,6 +10,7 @@ public class LoadingSceneCalllbackController : MonoBehaviour
     {
         if (isFirstUpdate==true)
         {
+            Debug.Log("LoadingSceneCallbackController invoked");
             isFirstUpdate = false;
             SceneLoader.LoaderCallback();
 
